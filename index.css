@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header{
+    background-image: url(img/upscalemedia-transformed.jpg);
+}
+
+.header{
+    background-color: #511e01;
+}
+
+.header .logo{
+    height: 100%;
+    width: 10%;
+    margin-left: 3%;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+ul{
+    font-family: "Bebas Neue", sans-serif;
+    color: #fffcfc;
+}
+
+.reserve{
+   background-color: rgb(245, 195, 121); 
+   width: 25%;
+   height: 15%;
+   border-radius: 12px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   font-weight: bolder;
+   color: black;
+   font-size: 20px;
+   font-family: "Bebas Neue", sans-serif;
+   animation: grow 1s infinite;
+   transition: all 2s;
+}
+
+.reserve:hover{
+    border-radius: 100px;
+    color: #511e01;
+}
+
+@keyframes grow {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.2);
+    }
+
+    75%{
+        transform: scale(1);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+h2{
+    font-family: "Bebas Neue", sans-serif;
+}
+
+ul li a{
+    transition: all 400ms;
+}
+
+ul li a:hover{
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+.modulo{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    animation: module 4s infinite;
+}
+
+.modulo img{
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes module {
+    0%{
+        transform: scale(1.1);
+    }
+
+    50%{
+        transform: scale(1);
+        transform: rotate(10deg);
+    }
+
+    75%{
+        transform: scale(1);
+        transform: rotate(-10deg);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+footer{
+    background-color: #511e01; 
+    color: #fffcfc;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}
