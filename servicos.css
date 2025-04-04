@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header{
+    background-color: #511e01;
+}
+
+header .logo{
+    height: 100%;
+    width: 10%;
+    margin-left: 3%;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+ul{
+    font-family: "Bebas Neue", sans-serif;
+    color: #eae9e7;
+}
+
+ul li a{
+    transition: all 400ms;
+}
+
+ul li a:hover{
+    font-size: 22px;
+}
+
+main{
+    background-color: #fefaca;
+}
+
+.box{
+    border: 3px solid #511e01;
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+.imagem{
+    background-color: transparent;
+    border-radius: 20px 20px 0 0;
+}
+
+.imagem img{
+    height: 100%;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8c45b;
+    border-radius: 100px;
+}
+
+p{
+    display: flex;
+    color: #015112;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    width: 350px;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.agendar{
+    background-color: #511e01;
+    width: 35%;
+    height: 20%;
+    border-radius: 10px;
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    color: #eae9e7;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.agendar:hover{
+    color: #511e01;
+    background-color: transparent;
+    border: 2px solid #511e01;
+    transform: scale(1.2);
+}
+
+footer{
+    background-color: #511e01; 
+    color: #eae9e7;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+}

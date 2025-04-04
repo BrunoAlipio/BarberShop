@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="servicos.css">
+    <title>Servicos BarberShop</title>
+</head>
+<body>
+    <header class="w-full h-24 flex flex-row">
+        <div class="logo">
+            <img src="img/logo2.png" class="m-auto" alt="">
+        </div>
+        <ul class="w-[85%] h-full ml-auto flex justify-center items-center flex-row font-thin">
+            <li class="m-auto"><a href="index.html">Home</a></li>
+            <li class="m-auto"><a href="unidade.html">Localizacao</a></li>
+            <li class="m-auto"><a href="contatos.html">Contatos</a></li>
+        </ul>
+    </header>
+    
+    <main class="w-full h-[545px] pt-[10%]">
+        <div class="container w-full ml-auto mr-auto flex flex-row justify-between items-center">
+            <!-- Formulário para o serviço de Cabelo -->
+            <form method="POST" action="barbeiros.html">
+                <div class="box m-auto">
+                    <div class="imagem w-full h-[30%]">
+                        <img src="img/cabelo.png" alt="Imagem de corte de cabelo">
+                    </div>
+                    <p>R$ 30,00</p>
+                    <input type="hidden" name="servico" value="3000"> <!-- Valor passado para o PHP -->
+                    <button type="submit" class="agendar">Cabelo</button>
+                </div>
+            </form>
+    
+            <!-- Formulário para o serviço de Barba -->
+            <form method="POST" action="barbeiros.html">
+                <div class="box m-auto">
+                    <div class="imagem w-full h-[30%]">
+                        <img src="img/barba.png" alt="Imagem de corte de barba">
+                    </div>
+                    <p>R$ 15,00</p>
+                    <input type="hidden" name="servico" value="1500"> <!-- Valor passado para o PHP -->
+                    <button type="submit" class="agendar">Barba</button>
+                </div>
+            </form>
+    
+            <!-- Formulário para o serviço Completo -->
+            <form method="POST" action="barbeiros.html">
+                <div class="box m-auto">
+                    <div class="imagem w-full h-[30%]">
+                        <img src="img/completo.png" alt="Imagem de serviço completo">
+                    </div>
+                    <p>R$ 45,00</p>
+                    <input type="hidden" name="servico" value="4500"> <!-- Valor passado para o PHP -->
+                    <button type="submit" class="agendar">Completo</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+
+    <footer class="w-full h-24 text-center">&copy;BarberShop. Todos os direitos reservados</footer>
+
+</body>
+</html>
