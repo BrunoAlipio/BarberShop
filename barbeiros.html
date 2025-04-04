@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="barbeiros.css">
+    <title>Corte de cabelo</title>
+</head>
+<body>
+    <header class="w-full h-24 flex flex-row">
+        <div class="logo">
+            <img src="img/logo2.png" class="m-auto" alt="">
+        </div>
+        <ul class="w-[85%] h-full ml-auto flex justify-center items-center flex-row font-thin">
+            <li class="m-auto"><a href="index.html">Home</a></li>
+            <li class="m-auto"><a href="unidade.html">Unidades</a></li>
+            <li class="m-auto"><a href="contatos.html">Contatos</a></li>
+        </ul>
+    </header>
+
+    <main class="w-full h-[545px] pt-[3%] flex flex-row">
+        <div class="card">
+            <img src="img/fernando.jpg" alt="">
+            <h2>Fernando</h2>
+            <h3><u>Insta: fernado_ofc</u></h3>
+            <a href="fernando.php"><button onclick="escholherBarbeiro('Fernando')">Agendar</button></a>
+        </div>
+
+        <div class="card">
+            <img src="img/ulisses.jpg" alt="">
+            <h2>Ulisses</h2>
+            <h3><u>Insta: ulisses_ofc</u></h3>
+            <a href="ulisses.php"><button onclick="escholherBarbeiro('Ulisses')">Agendar</button></a>
+        </div>
+
+        <div class="card">
+            <img src="img/cristian.jpg" alt="">
+            <h2>Cristian</h2>
+            <h3><u>Insta: cristian_ofc</u></h3>
+            <a href="cristian.php"><button onclick="escholherBarbeiro('Cristian')">Agendar</button></a>
+        </div>
+    </main>
+    
+    <footer class="w-full h-24 text-center">&copy;BarberShop. Todos os direitos reservados
+        <p id="servicoSelecionado"></p>
+    </footer>
+
+</body>
+</html>
